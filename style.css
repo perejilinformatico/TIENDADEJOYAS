@@ -149,6 +149,9 @@ a:hover {
 .subp-text {
     font-size: 10px;
 }
+#p__legal {
+    color: darkgray;
+}
 @media (max-width: 500px) {
    .color__img {
      width: 200px;
