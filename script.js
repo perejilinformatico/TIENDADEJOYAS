@@ -4,6 +4,6 @@ let currentHash = window.location.hash;
 i.addEventListener("click", () => {
   window.location.hash = "#jsjs";
   setInterval(() => {
-      window.location.hash = "";
+      window.location.hash = "/index.html";
   }, 1000);
 });
