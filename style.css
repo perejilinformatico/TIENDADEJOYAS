@@ -152,10 +152,16 @@ a:hover {
 #p__legal {
     color: darkgray;
 }
+.card-div {
+    transition: all 0.3s ease;
+}
+.card__div:hover {
+    transform: translateY(-10px);    
+}
 @media (max-width: 500px) {
    .color__img {
-     width: 200px;
-     height: 200px; 
+     width: 225px;
+     height: 225px; 
    }
    footer {
     flex-direction: column;
