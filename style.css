@@ -158,6 +158,38 @@ a:hover {
 .card__div:hover {
     transform: translateY(-10px);    
 }
+.img__1 {
+    cursor: pointer;
+}
+.carrito__html {
+    background: linear-gradient(#E5C579, #dda625);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    height: calc(50% + 50%);
+    width: 200px;
+    text-align: center;
+}
+.title-carH2 {
+    color: white;
+    font-family: "Merriweather";
+}
+.p__textReutilizable {
+    color: white;
+    font-family: "Merriweather";
+}
+#ul_list {
+    text-align: center;
+    color: white;
+    font-family: "Merriweather";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 @media (max-width: 500px) {
    .color__img {
      width: 225px;
