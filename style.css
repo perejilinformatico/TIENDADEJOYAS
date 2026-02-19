@@ -244,7 +244,7 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
 }
-.button__conteiner {
+.button-conteiner {
     display: flex;
     justify-content: center;
     align-items: center;
