@@ -190,6 +190,67 @@ a:hover {
     align-content: center;
     flex-direction: column;
 }
+.cards-conteiner {
+    margin: 10px;
+}
+.visualizer__card {
+    border-radius: 10px;
+    padding: 5px;
+    background: rgb(247, 240, 206);
+    position: fixed;
+    z-index: 999;
+    width: 550px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4%;
+    left: 29%;
+}
+.color__imgVisualizer {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, var(--cream), var(--gold-light));
+}
+.conteiner__colorimgvisualizer {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner_ps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn__principalSali {
+    background-color: var(--gold-light);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cards__conteiner {
+  padding: 10px;
+}
+.btn__AñadirCarrito {
+    background-color: var(--gold-light);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button__conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
 @media (max-width: 500px) {
    .color__img {
      width: 225px;
@@ -200,5 +261,9 @@ a:hover {
    }
    nav {
         flex-direction: column;
+   }
+   .visualizer__card {
+    width: 90%;
+    left: 3%;
    }
 }
