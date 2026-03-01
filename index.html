@@ -10,14 +10,32 @@
     <meta property="og:description" content="Diseños únicos, elegantes y pensados para durar. Descubrí tu próxima joya favorita.">
     <meta name="robots" content="index, follow">   
     <meta name="theme-color" content="#F5F0E6">
+    <meta name="dark-theme-color" content="#2c2c2c">
     <meta property="og:type" content="website">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image" content="https://lucky-paletas-5a90b5.netlify.app/img/Sin%20t%C3%ADtulo.png">
+    <meta property="og:image" content="https://lumiere-tienda.netlify.app/img/Sin%20t%C3%ADtulo.png">
     <link rel="shortcut icon" href="img/Sin título.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="carrito__html carrito-html" style="display: none;">
+        <h2 class="title__carH2 title-carH2">Carrito de Compras</h2>
+        <p class="p__textReutilizable p-textReutilizable">No ay productos aun</p>
+        <ul id="ul_list"></ul>
+    </div>
+    <div class="visualizer__card visualizer-card" style="display: none;">
+        <div class="conteiner__colorimgvisualizer conteiner-colorimgvisualizer">
+            <div class="color__imgVisualizer color-imgVisualizer"></div>
+        </div>
+        <div class="conteiner_ps">
+          <p class="p__textVisualizerCard p-textVisualizerCard"></p>
+          <div class="button-conteiner">
+           <button class="btn__AñadirCarrito btn-AñadirCarrito">Añadir al Carrito</button>
+           <button class="btn__principalSali btn-principalSali">Salir</button>
+          </div>
+        </div>
+    </div>
     <header>
         <h3 class="title__header title-header">LUMIERE</h3>
         <img src="img/bolsa-de-la-compra.png" alt="icono_bolsa" width="30px" height="30px" class="img__1 img-1">
@@ -33,29 +51,29 @@
         </section>
         <section class="section__objets section-objets" id="jsjs">
             <h2 class="h2__sectionObjets h2-sectionsObjets">Piezas Destacadas</h2>
-            <div class="cards__conteiner">
-            <div class="card__div card-div">
+            <div class="cards__conteiner cards-conteiner">
+            <div class="card__div card-div" data-category="Collar Lunar">
                 <div class="color__img color-img"></div>
                 <div class="text__div text-div">
                     <h3>Collar Lunar</h3>
                     <p class="p__text p-text">$3000</p>
                 </div>
             </div>
-            <div class="card__div card-div">
+            <div class="card__div card-div"  data-category="Pulsera Dorada">
                 <div class="color__img color-img"></div>
                 <div class="text__div text-div">
                     <h3>Pulsera Dorada</h3>
                     <p class="p__text p-text">$1800</p>
                 </div>
             </div>
-            <div class="card__div card-div">
+            <div class="card__div card-div" data-category="Aretes Estrella">
                 <div class="color__img color-img"></div>
                 <div class="text__div text-div">
                     <h3>Aretes Estrella</h3>
                     <p class="p__text p-text">$1500</p>
                 </div>
             </div>
-            <div class="card__div card-div">
+            <div class="card__div card-div" data-category="Anillo De Plata">
                 <div class="color__img color-img"></div>
                 <div class="text__div text-div">
                     <h3>Anillo De Plata</h3>
@@ -76,7 +94,7 @@
         </nav>
         <div class="div__footer div-footer">
           <img src="img/image.webp" alt="svg_intagram_icono" width="20px" height="20px">
-          <p id="p__legal">© 2024 LUMIERE</p>        
+          <p id="p__legal">© 2026 LUMIERE</p>        
         </div>
     </footer>
     <script src="script.js"></script>

@@ -152,15 +152,119 @@ a:hover {
 #p__legal {
     color: darkgray;
 }
+.card-div {
+    transition: all 0.3s ease;
+}
+.card__div:hover {
+    transform: translateY(-10px);    
+}
+.img__1 {
+    cursor: pointer;
+}
+.carrito__html {
+    background: linear-gradient(#E5C579, #dda625);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    height: calc(50% + 50%);
+    width: 200px;
+    text-align: center;
+}
+.title-carH2 {
+    color: white;
+    font-family: "Merriweather";
+}
+.p__textReutilizable {
+    color: white;
+    font-family: "Merriweather";
+}
+#ul_list {
+    text-align: center;
+    color: white;
+    font-family: "Merriweather";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.cards-conteiner {
+    margin: 10px;
+}
+.visualizer__card {
+    border-radius: 10px;
+    padding: 5px;
+    background: rgb(247, 240, 206);
+    position: fixed;
+    z-index: 999;
+    width: 550px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4%;
+    left: 29%;
+}
+.color__imgVisualizer {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, var(--cream), var(--gold-light));
+}
+.conteiner__colorimgvisualizer {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner_ps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn__principalSali {
+    background-color: var(--gold-light);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cards__conteiner {
+  padding: 10px;
+}
+.btn__AñadirCarrito {
+    background-color: var(--gold-light);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
 @media (max-width: 500px) {
    .color__img {
-     width: 200px;
-     height: 200px; 
+     width: 225px;
+     height: 225px; 
    }
    footer {
     flex-direction: column;
    }
    nav {
         flex-direction: column;
+   }
+   .visualizer__card {
+    width: 90%;
+    left: 3%;
+    top: 8%;
    }
 }
